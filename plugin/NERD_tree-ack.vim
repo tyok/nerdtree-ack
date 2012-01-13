@@ -1,8 +1,7 @@
 " ============================================================================
-" File:        NERD_Tree_search.vim
+" File:        NERD_tree-ack.vim
 " Description: Adds searching capabilities to NERD_Tree
-" Maintainer:  Tudor Barbu <miau at motane dot lu>
-" Last Change: 2010-12-08
+" Maintainer:  Mohammad Satrio <wolfaeon at gmail dot com>
 " License:     This program is free software. It comes without any warranty,
 "              to the extent permitted by applicable law. You can redistribute
 "              it and/or modify it under the terms of the Do What The Fuck You
@@ -37,4 +36,3 @@ function! NERDTreeAck()
     endif
     exec "Ack! ".pattern." ".cd
 endfunction
-
