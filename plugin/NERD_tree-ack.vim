@@ -52,5 +52,5 @@ function! NERDTreeAckSensitive()
         echo 'Maybe another time...'
         return
     endif
-    exec "Ack! '".pattern."' ".cd
+    exec "Ack! '".pattern."' '".cd."'"
 endfunction
